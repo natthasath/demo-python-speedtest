@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "demo-python-speedtest"
+version = "0.1.0"
+description = ""
+authors = ["Natthasath Saksupanara <natthasath.sak@gmail.com>"]
+license = "MIT License"
+readme = "README.md"
+packages = [{include = "demo_python_speedtest"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+tk = "^0.1.0"
+customtkinter = "^5.0.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
